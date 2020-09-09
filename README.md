@@ -10,9 +10,14 @@ Both networks were able to output reasonable captioning for images.
 
 Here are some of the output from the network.
 - LSTM Decoder:
+
 ![image](https://github.com/KibaekJeong/ComputerVision---Image-Capationing/blob/master/output/1.png)
 ![image](https://github.com/KibaekJeong/ComputerVision---Image-Capationing/blob/master/output/2.png)
+
+
+
 - Attention LSTM Decoder:
+
 ![image](https://github.com/KibaekJeong/ComputerVision---Image-Capationing/blob/master/output/3.png)
 ![image](https://github.com/KibaekJeong/ComputerVision---Image-Capationing/blob/master/output/4.png)
 
