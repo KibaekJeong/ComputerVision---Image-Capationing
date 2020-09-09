@@ -5,7 +5,10 @@ In following project, objective is to build an network for image captioning. Usi
 Originally, Udacity requires student to build with basic LSTM. However, I wanted to go deeper and develop a better model with Attention based LSTM. So, the project repo is divided into two different section. One with using LSTM and another with using Attention based LSTM.
 
 ## Result
-Two different network with LSTM decoder and attetion LSTM decoder has been developed and compared. Attention based LSTM definately was able to achieve lower loss value, but required much longer training time.
+Two different network with LSTM decoder and attetion LSTM decoder has been developed and compared. Attention based LSTM definately was able to achieve lower loss value at lower epoch, but required much longer training time.
+Network with Regular LSTM decoder achieved 1.669 at epoch 5.
+Network with Attention LSTM decoder achieved 1.243 at epoch 4. (Training stopped at epoch 4/5 due to too much of time consumption) 
+
 Both networks were able to output reasonable captioning for images. 
 
 Here are some of the output from the network.
